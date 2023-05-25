@@ -334,15 +334,6 @@ li{
         }
     }
 
-    @media (max-width: 490){
-        .bodyImagen{
-            height: 290px;
-        }
-        .icon{
-            width: 1.5rem;
-            height:1.5rem;
-        }
-    }
 
     @media (max-width:425px){
         .bodyImagen{
@@ -350,11 +341,6 @@ li{
         }
     }
 
-    @media (max-width:420px){
-        .bodyImagen{
-            height: 190px;
-        }
-    }
     @media (max-width: 375){
         .bodyImagen{
             height: 180px;
