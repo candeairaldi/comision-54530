@@ -38,7 +38,9 @@ h1{
     letter-spacing: 3px;
     justify-content: center;
     margin-bottom: 1rem;
+    
 }
+
 h2{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1rem;
@@ -49,6 +51,11 @@ h2{
 h4{
     font-family: 'Nanum Gothic', sans-serif;
     text-align: center;
+}
+
+
+main h2:hover{
+    color:rgb(165, 99, 37);
 }
 
 .bodyImagen {
@@ -108,6 +115,10 @@ h4{
     font-size: 24;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+header nav ul li a:hover{
+    font-weight: bold;
 }
 
 
@@ -311,7 +322,7 @@ li{
     color: #999;
     text-decoration: none;
     }
-    
+
     .footer-bottom {
     margin-top: 20px;
     text-align: center;
