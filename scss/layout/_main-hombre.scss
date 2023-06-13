@@ -27,6 +27,9 @@ main{
         @include container-flex;
         .sectionP1{
             @include section-flex;
+            &:hover{
+                transform: scale(1.10);
+            }
             .zapa3{
                 width: 15rem;
                 height:15rem;

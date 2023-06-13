@@ -9,6 +9,9 @@ main{
         @include container-flex;
         .sectionP1{
             @include section-flex;
+            &:hover{
+                transform: scale(1.10);
+            }
             .zapa1{
                 width: 20rem;
                 height:20rem;
