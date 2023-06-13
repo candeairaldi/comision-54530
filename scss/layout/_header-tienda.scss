@@ -1,0 +1,41 @@
+header{
+    form{
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    h1{
+        @include h1-style;
+        }
+    .bodyImagen1{
+        padding: 300px;
+        background-image: url(../assets/img/headerpag1.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    nav{
+        .navBarList{
+            display:flex;
+            align-items: center; 
+            justify-content: center;
+            gap: 120px;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-size: 24;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    &:hover {
+                        color:$color-hover;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

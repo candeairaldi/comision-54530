@@ -1,0 +1,53 @@
+@media (max-width: 768px){
+main{
+    .bg-img{
+        .bodyImagen{
+        height: 21.875rem;
+    }
+    }
+}
+
+footer{
+    section{
+        .redesContainer{
+            .icon1{
+            width: 1.5rem;
+            height: 1.5rem;
+    }
+        }
+    }
+}
+
+header{
+    margin-top: 2rem;
+    .search{
+        display:none;
+    }
+    .bodyImagen1{
+        display:none;
+    }
+}
+main{
+    overflow: hidden;
+}
+main{
+    .containerProductos3{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-bottom: 60px;
+        .sectionP1 {
+            text-align: center;
+            }
+    }
+    .containerProductos4{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-bottom: 240px;
+        .sectionP1 {
+        text-align: center;
+        }
+    }
+}
+}

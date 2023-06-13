@@ -1,0 +1,53 @@
+
+li{
+    list-style: none
+}
+a{
+    text-decoration: none;
+}
+main{   
+    .container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+    }
+}
+.fuente-contact{
+    color: black;
+}
+.fondoContacto{
+    padding: 8rem;
+    background-color: black;
+    background-image: url(../assets/img/headerindex.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.h1-fondo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    padding:20px;
+    opacity: 70%;
+}
+.form-floating{
+    margin:3rem;
+    border-radius:0;
+}
+.f-contact{
+    background-color: white;
+    padding: 2rem;
+}
+.redesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+}

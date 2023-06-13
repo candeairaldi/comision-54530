@@ -1,0 +1,53 @@
+main{
+    h2{
+        @include h2-style;
+        &:hover {
+            color:$color-hover;
+        }
+    }
+    .containerProductos{
+        @include container-flex;
+        .sectionP1{
+            @include section-flex;
+            .zapa1{
+                width: 20rem;
+                height:20rem;
+                border: solid white 0.2rem;
+                margin-left: 0.8rem;
+                margin-top: 0.8rem;
+            }
+            h4{
+                font-family: 'Nanum Gothic', sans-serif;
+                text-align: center;
+            }
+        }
+    }
+    .containerProductos2{
+        @extend .containerProductos;
+    }
+    }
+    .suscript{
+        @include suscript-style;
+        h3{
+            @include h3-style;
+        }
+        .formSuscript{
+            display: flex;
+            justify-content: center;
+            form{
+                p{
+                .cajaSuscript{
+                    width: 23rem;
+                    border: 1px solid grey ;
+                    padding:6px;
+                    display: block;
+                }
+                }
+            .enviar-botton{
+                display: flex;
+                justify-content: center;
+                margin-top: 0.5rem;
+            }
+            }
+        }
+    }

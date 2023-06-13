@@ -1,0 +1,72 @@
+main{
+    h2{
+        @include h2-style;
+        &:hover {
+        color:$color-hover;
+    }
+    }
+
+    .containerProductos3{
+        @include container-flex;
+        .sectionP1{
+            @include section-flex;
+            .zapa2{
+                width: 15rem;
+                height:10rem;
+                border: solid white 0.2rem;
+                margin-left: 1rem;
+                margin-top: 1rem;
+            }
+            h4{
+                font-family: 'Nanum Gothic', sans-serif;
+                text-align: center;
+            }
+        }
+    }
+    .containerProductos4{
+        @include container-flex;
+        .sectionP1{
+            @include section-flex;
+            .zapa3{
+                width: 15rem;
+                height:15rem;
+                border: solid white 0.2rem;
+                margin-left: 1rem;
+                margin-top: 1rem;
+            }
+            h4{
+                font-family: 'Nanum Gothic', sans-serif;
+                text-align: center;
+            }
+            h4{
+                font-family: 'Nanum Gothic', sans-serif;
+                text-align: center;
+            }
+        }
+    }
+    }
+    .suscript{
+        @include suscript-style;
+        h3{
+            @include h3-style;
+        }
+        .formSuscript{
+            display: flex;
+            justify-content: center;
+            form{
+                p{
+                .cajaSuscript{
+                    width: 23rem;
+                    border: 1px solid grey ;
+                    padding:6px;
+                    display: block;
+                }
+                }
+            .enviar-botton{
+                display: flex;
+                justify-content: center;
+                margin-top: 0.5rem;
+            }
+            }
+        }
+    }

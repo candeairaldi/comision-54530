@@ -1,0 +1,63 @@
+main{
+    h2{
+        @include h2-style;
+    }
+    .containerProductos{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 25rem;
+        margin-top: 1rem;
+        overflow-x: hidden;
+        .sectionP1{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            margin:0,1rem;
+            .zapa1{
+                width: 20rem;
+                height:20rem;
+                border: solid white 0.2rem;
+                margin-left: 0.8rem;
+                margin-top: 0.8rem;
+            }
+            h4{
+                font-family: 'Nanum Gothic', sans-serif;
+                text-align: center;
+            }
+            h4{
+                font-family: 'Nanum Gothic', sans-serif;
+                text-align: center;
+            }
+        }
+    }
+    .suscript{
+        padding: 3.5rem;
+        align-items: center;
+        background-color: grey;
+        margin-top: 1rem;
+        h3{
+            @include h3-style;
+        }
+        .formSuscript{
+            display: flex;
+            justify-content: center;
+            form{
+                p{
+                .cajaSuscript{
+                    width: 23rem;
+                    border: 1px solid grey ;
+                    padding:6px;
+                    display: block;
+                }
+                }
+            .enviar-botton{
+                display: flex;
+                justify-content: center;
+                margin-top: 0.5rem;
+            }
+            }
+        }
+        }
+}

@@ -1,0 +1,17 @@
+footer{
+    section{
+        margin: 2rem;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+            .icon1{
+                display: flex;
+                justify-content: center;
+                width: 2rem;
+                height: 2rem;
+            }
+            }
+        }
+}

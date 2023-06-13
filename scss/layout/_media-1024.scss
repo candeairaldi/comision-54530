@@ -1,0 +1,31 @@
+@media (max-width: 1024px){
+main{
+    .bg-img{
+        .bodyImagen{
+            height: 30rem;
+    }
+    }
+}
+
+main{
+    overflow: hidden;
+    h2{
+        width:100%;
+    }
+    .containerProductos{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            height:50rem;
+        .sectionP1 {
+            text-align: center;
+        }
+        .zapa1 {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+}
+
+

@@ -1,0 +1,7 @@
+.header-style{
+        margin: 4rem;
+        h1{
+            @include h1-style;
+        }
+    }
+

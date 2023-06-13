@@ -1,0 +1,89 @@
+@media (max-width:425px){
+main{
+    .bg-img{
+        .bodyImagen{
+            height: 220px;
+    }
+    }
+}
+header{
+    h1{
+        font-size: 1.25rem;
+    }
+    .bodyImagen1{
+        display:none;
+    }
+    nav{
+        .navBarList{
+            display:flex;
+            flex-direction: column;
+            gap:20px;
+        }
+    }
+}
+main{
+    .containerProductos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        height:100rem;
+        .sectionP1{
+            .zapa1{
+                width: 17rem;
+                height:17rem;
+            }
+        }
+    }
+    .suscript{
+        .formSuscript{
+            form{
+                p{
+                    .cajaSuscript{
+                        width: 200px;
+                    } 
+                }
+            }
+            
+        }
+    }
+    }
+footer{
+    .footer-content {
+    .footer-item{
+        grid-column:2;
+        .footer-item-redes {
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        }
+    }
+    .footer-bottom {
+        display: none;
+    }
+    }
+}
+header{
+    .bodyImagen2{
+        padding:100px;
+    }
+}
+main{
+    .containerProductos3{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        height: 100rem;
+        margin-bottom: 0px;
+    }
+    .containerProductos4{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        height: 100rem;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+}
+}

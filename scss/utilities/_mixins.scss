@@ -1,0 +1,45 @@
+@mixin container-flex{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 25rem;
+    margin-top: 1rem;
+}
+@mixin section-flex{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin:0,1rem;
+}
+@mixin suscript-style{
+    padding: 3.5rem;
+    align-items: center;
+    background-color: grey;
+    margin-top: 1rem;
+}
+@mixin h3-style{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 3px;
+    justify-items: center;
+    margin-bottom: 1rem;
+    text-decoration:underline;
+}
+@mixin h2-style{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    background-color: $color-footer;
+    padding:20px;
+}
+@mixin h1-style{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.0rem;
+    color: black;
+    text-align: center;
+    letter-spacing: 3px;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
