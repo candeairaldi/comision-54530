@@ -10,6 +10,9 @@ main{
         @include container-flex;
         .sectionP1{
             @include section-flex;
+            &:hover{
+                transform: scale(1.10);
+            }
             .zapa2{
                 width: 15rem;
                 height:10rem;
@@ -69,6 +72,9 @@ main{
                 display: flex;
                 justify-content: center;
                 margin-top: 0.5rem;
+                input[type="submit"] {
+                    @include bottom-style;
+                }
             }
             }
         }

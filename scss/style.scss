@@ -5,6 +5,9 @@
 @import"./layout/header-index";
 @import"./layout/main-index";
 @import"./layout/footer-index";
+body{
+    overflow-x: hidden;
+}
 @import"./layout/header-tienda";
 @import"./layout/main-tienda";
 @import"./layout/footer";
