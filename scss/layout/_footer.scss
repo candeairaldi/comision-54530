@@ -22,6 +22,10 @@
                 a{
                     color: #999;
                     text-decoration: none;
+                    &:hover {
+                        color:$color-hover;
+                        font-weight: bold;
+                    }
                 }
             }
         }
@@ -36,6 +40,9 @@
                 justify-content: center;
                 width: 2rem;
                 height: 2rem;
+                &:hover{
+                    transform: scale(1.3);
+                    }
             }                
         }
     }
